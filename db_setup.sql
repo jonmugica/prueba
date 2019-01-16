@@ -22,8 +22,6 @@ isManager         boolean
 
 create table vehicles(
 vehicleID  		TINYINT UNSIGNED,
-statee  	boolean,
-position    VARCHAR(25)     NOT NULL,
 velocity 	decimal(7,2)
 );
 

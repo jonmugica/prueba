@@ -22,6 +22,11 @@ isManager         boolean
 
 create table vehicles(
 vehicleID  		TINYINT UNSIGNED,
+<<<<<<< HEAD
+=======
+statee  	boolean,
+position    VARCHAR(25)     NOT NULL,
+>>>>>>> 6f0b40b... First Commit
 velocity 	decimal(7,2)
 );
 
